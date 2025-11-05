@@ -1,9 +1,19 @@
 
 # AI Financial Analyst
-Reads financial PDFs from public companies and automatically computes SG&A margins (and future KPI expansion).
+Reads financial PDFs from public companies and automatically computes key financial metrics such as Gross, SG&A , Net Income margin analysis (and future KPI expansion).
 Built end-to-end: Java backend PDF extractor + modern web UI.
 # Live Demo
 https://finanalyst.malva.company
+### Upload Screen
+![Upload](/screenshots/page1.png)
+
+### File & Industry Select Screen
+![Year Select](/screenshots/page2.png)
+
+### Output Metrics & Analysis Screen
+
+![Comparison](/screenshots/page4.png)
+
 # Why this is valuable
 Financial analysts waste hours manually pulling simple margin metrics from 10Ks / investor decks. This tool extracts it instantly from source PDFs.
 Architecture
@@ -13,11 +23,11 @@ Architecture
 # How it works
 1.Upload a financial report PDF
 
-2.Select a year (2022A / 2023A / 2024E…)
+2.Select an industry of the company you are analyzing
 
 3.System parses revenue + SG&A
 
-4.Outputs SG&A margin within seconds
+4.Outputs margin analysis; benchmark and compares with industry standards to produce financial health report
 ##
 Run locally
 ###
