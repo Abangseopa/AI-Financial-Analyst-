@@ -1,0 +1,11 @@
+# Java
+target/
+*.class
+*.log
+*.iml
+.idea/
+.gradle/
+out/
+
+# macOS
+.DS_Store
